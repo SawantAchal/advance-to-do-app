@@ -29,7 +29,7 @@ const TaskList = () => {
           {task.location && weather.name?.toLowerCase() === task.location.toLowerCase() && (
             <div className="mt-2 p-2 border bg-gray-100">
               <p>Weather in {weather.name}:</p>
-              <p>Temperature: {Math.round(weather.main.temp - 273.15)}°C</p>
+              <p>Temperature: {Math.round(weather.main.temp)}°C</p>
               <p>Weather: {weather.weather[0].description}</p>
             </div>
           )}

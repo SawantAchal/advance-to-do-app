@@ -12,7 +12,7 @@ const Task = ({ task, index }) => {
   return (
     <div className="flex items-center justify-between p-2 border-b">
       <div className="flex-1">
-      <div className="max-h-20 overflow-y-auto text-lg break-words">
+      <div className="text-lg">
           {task.task}
         </div>
         <p className="text-sm text-gray-500">Priority: {task.priority}</p>
